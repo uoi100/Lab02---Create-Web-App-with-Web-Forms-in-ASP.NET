@@ -16,7 +16,7 @@ namespace CalvinTruongLab02
         /// <param name="e"></param>
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (DropDownList.Items.Count == 0)
+            if (!IsPostBack)
             {
                 // Add items to the DropDownList
                 DropDownList.Items.Clear();
