@@ -1,0 +1,29 @@
+﻿.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table td{
+    font-weight: bold;
+}
+
+#DropDownList {
+    width: 200px;
+}
+
+.TextBox {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.Button {
+    width: 200px;
+}
